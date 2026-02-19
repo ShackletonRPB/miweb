@@ -1,0 +1,32 @@
+DevOps Engineer / Cloud Infrastructure Engineer
+Santander Group | [Fechas de inicio - fin]
+
+Proyecto: Plataforma de Identidad y Gestión de Accesos (CIAM)
+
+Diseñé e implementé la infraestructura cloud para servicios de autorización basados en PingAuthorize y PingAuthorize Policy Editor en Kubernetes (GKE), gestionando el ciclo completo de despliegue mediante Helm charts.
+Desarrollé imágenes Docker personalizadas siguiendo patrones oficiales de Ping Identity, optimizando el proceso de setup y configuración para entornos de certificación y desarrollo.
+Configuré Ingress Controllers (Nginx) con reglas avanzadas de enrutamiento, incluyendo rewrites, session affinity y balanceo de carga para múltiples servicios en una arquitectura de microservicios.
+Integré componentes de Ping Identity con la plataforma ForgeRock (Access Manager, Identity Manager, Directory Server), estableciendo la comunicación entre sistemas de autenticación y autorización.
+Implementé persistencia de datos mediante PVC en AWS EBS, gestionando bases de datos embebidas H2 y configurando backups automáticos.
+Gestioné CI/CD con pipelines automatizadas para construcción de imágenes Docker, despliegue en ECR (Elastic Container Registry) y actualización de servicios en Kubernetes.
+Resolví problemas complejos de networking y seguridad en entornos multi-cluster, incluyendo configuración de Security Groups, análisis de conectividad TCP/DNS y troubleshooting de políticas de red.
+Documenté arquitectura y procedimientos siguiendo estándares corporativos, facilitando el mantenimiento y transferencia de conocimiento al equipo.
+Tecnologías: Kubernetes, Docker, Helm, AWS (EKE, ECR, EBS, NLB), Nginx Ingress, Ping Identity (PingAuthorize, PAP), ForgeRock (AM, IDM, DS), Git, CI/CD, H2 Database, bash scripting.
+
+
+
+Frodo Modular Tool - Herramienta CLI de Gestión IAM
+Santander Group | 2025-2026
+Tech Stack: Bash, YAML, ForgeRock/PingAM, Git
+
+Proyecto:
+Herramienta CLI modular para automatizar gestión de configuraciones de identidad digital (IAM) en plataforma ForgeRock/Ping Identity.
+
+Logros principales:
+
+🏗️ Diseñé arquitectura modular con 12 módulos especializados organizados en 4 capas
+⚡ Implementé exportación/importación paralela, mejorando performance 3x mediante procesamiento concurrente
+📊 Desarrollé sistema de análisis automático de configuraciones con generación de reportes Markdown
+🎯 Creé CLI dual (interactiva + comandos) con menús intuitivos, dry-run y manejo robusto de errores
+✅ Reduje 70% tiempo de despliegue y eliminé errores manuales en configuraciones críticas
+Skills: Shell Scripting avanzado, Arquitectura modular, Procesamiento paralelo, Parsing YAML/JSON, IAM, ForgeRock, Git, CLI/UX design
